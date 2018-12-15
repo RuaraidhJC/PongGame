@@ -18,8 +18,6 @@ BALL_Y_SPEED = 4
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 
-#screen = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
-
 class View:
     def __init__(self):
         self.screen = screen = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
